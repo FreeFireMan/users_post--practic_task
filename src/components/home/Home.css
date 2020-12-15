@@ -1,0 +1,19 @@
+.home-wrapper {
+    background-color: #1c3754;
+    min-height: 90vh;
+}
+.text-home {
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+.img-wrapper {
+    background-color: #292929;
+    padding: 50px;
+    text-align: center;
+}
+.body-img {
+    height: 60vmin;
+    pointer-events: none;
+    margin: auto;
+}

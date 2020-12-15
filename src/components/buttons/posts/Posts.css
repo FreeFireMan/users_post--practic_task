@@ -1,0 +1,11 @@
+.btn-posts {
+    color: #e3e3e3;
+    background-color: #5fb019;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 90%;
+    margin-right: 12px;
+}
+.btn-posts:hover {
+    background-color: #4f9413;
+}

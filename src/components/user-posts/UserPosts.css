@@ -1,0 +1,9 @@
+.posts-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 300px;
+    margin: 15px auto;
+
+}
