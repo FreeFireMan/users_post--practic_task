@@ -36,8 +36,10 @@ class Users extends Component {
               <div className='w50'>
 
                 <Route path={url + '/:id'} render={(props) => {
-                  const {match: {params: {id}}} = props
-                  return <ChosenUser user={chosenUser} key={id}/>
+
+                    const {match: {params: {id},url}} = props
+                    console.log(url);
+                    return <ChosenUser key={id} url={url}/>
                 }}
                 />
               </div>
